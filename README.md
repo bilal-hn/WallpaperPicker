@@ -69,6 +69,18 @@ While built and optimized for Debian/Ubuntu ecosystems, this app can run on othe
 
 ---
 
+## 🖼️ Wallpaper Folder Setup
+
+By default, the app looks for images in `~/Pictures/Wallpapers`. Create this folder and place your wallpaper images inside it:
+
+```bash
+mkdir -p ~/Pictures/Wallpapers
+```
+
+If you'd rather store your wallpapers somewhere else (e.g. a different folder or drive), you'll need to update the path inside `wallpaper_picker.py` to point to your custom location instead.
+
+---
+
 ## 📂 Project Structure
 
 ```text
