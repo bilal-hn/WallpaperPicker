@@ -1,0 +1,73 @@
+window {
+    background: transparent;
+}
+
+.dock {
+    background: rgba(18, 18, 20, 0.88);
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+scrolledwindow {
+    background: transparent;
+}
+
+scrollbar {
+    background: transparent;
+}
+
+scrollbar slider {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    min-height: 6px;
+}
+
+scrollbar slider:hover {
+    background: rgba(255, 255, 255, 0.45);
+}
+
+flowbox {
+    background: transparent;
+}
+
+flowboxchild {
+    background: transparent;
+    padding: 0;
+    border-radius: 14px;
+    transition: all 200ms ease-out;
+}
+
+flowboxchild:hover {
+    transform: scale(1.02); /* Clean zoom effect on mouse hover */
+}
+
+button.wallpaper {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+    border-radius: 14px;
+}
+
+button.wallpaper picture {
+    border-radius: 14px;
+}
+
+/* Clear focus management rules applied to the wrapper element */
+flowboxchild:focus {
+    outline: none;
+}
+
+flowboxchild:focus button.wallpaper {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.4);
+}
+
+/* Active background outline marker */
+flowboxchild.selected button.wallpaper {
+    box-shadow: 0 0 0 4px #7aa2ff;
+}
+
+/* Unified overlay ring when focused over an already selected wallpaper */
+flowboxchild.selected:focus button.wallpaper {
+    box-shadow: 0 0 0 4px #7aa2ff, 0 0 0 7px rgba(255, 255, 255, 0.2);
+}
