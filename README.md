@@ -33,3 +33,55 @@ Open your terminal and run the following command to grab all system requirements
 ```bash
 sudo apt update
 sudo apt install python3-gi python3-gi-cairo gir1.2-gtk-4.0 wmctrl
+```
+
+### Compatibility Note (Other Linux Distributions)
+
+While built and optimized for Debian/Ubuntu ecosystems, this app can run on other distributions if you install their equivalent packages:
+
+- **Fedora:** `sudo dnf install python3-gobject gtk4 wmctrl`
+- **Arch Linux:** `sudo pacman -S python-gobject gtk4 wmctrl`
+
+> ⚠️ **Desktop Environment Warning:** This script modifies the desktop background using the Cinnamon `gsettings` schema (`org.cinnamon.desktop.background`). If you run standard GNOME (e.g., default Ubuntu), change all occurrences of `org.cinnamon.desktop.background` to `org.gnome.desktop.background` inside the Python file.
+
+---
+
+## 🚀 Installation & Usage
+
+1. **Clone the repository:**
+
+```bash
+   git clone https://github.com/bilal-hn/WallpaperPicker.git
+   cd WallpaperPicker
+```
+
+2. **Make the script executable:**
+
+```bash
+   chmod +x wallpaper_picker.py
+```
+
+3. **Launch the picker:**
+
+```bash
+   ./wallpaper_picker.py
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+WallpaperPicker/
+├── wallpaper_picker.py    # Main application executable script
+├── style.css              # GTK 4 style rules for layout/theming
+├── .wallpaper_picker.lock # Automatic system file (Generated at runtime)
+├── .gitignore             # Tells Git to skip indexing the lock file
+└── screenshots/           # Directory where you store project images
+```
+
+---
+
+## 📝 License
+
+This project is open-source. Feel free to modify, distribute, and tailor it to your personal workflow.
