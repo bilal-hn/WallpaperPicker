@@ -1,18 +1,17 @@
 # Wallpaper Picker
 
-A sleek, lightweight GTK 4-based wallpaper picker designed for Linux[cite: 1]. It features smooth async image caching and an instantaneous visual preview[cite: 1]. The application is built to run on **Linux Mint (Cinnamon)** and other **Debian-based distributions** using the Cinnamon desktop environment out of the box, with minimal adjustments required for other window managers or desktops[cite: 1].
+A sleek, lightweight GTK 4-based wallpaper picker designed for Linux. It features smooth async image caching and an instantaneous visual preview. The application is built to run on **Linux Mint (Cinnamon)** and other **Debian-based distributions** using the Cinnamon desktop environment out of the box, with minimal adjustments required for other window managers or desktops.
 
 ---
 
 ## 📸 Preview
 
-*Place your screenshots or GIFs here to showcase the app!*[cite: 1]
+
 
 | Application View |
 | :---: |
-| <img src="screenshots/preview.png" width="600" alt="Wallpaper Picker Interface"> |[cite: 1]
+| <img src="screenshots/preview.png" width="600" alt="Wallpaper Picker Interface"> |
 
-> **How to add your own screenshot:** Create a folder named `screenshots` in the repository root, save your image inside it as `preview.png`, and upload it to GitHub[cite: 1]. This Markdown placeholder will automatically display your image![cite: 1]
 
 ---
 
